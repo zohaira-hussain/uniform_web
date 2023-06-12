@@ -1,0 +1,148 @@
+
+/* Products */
+#title{
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     background: linear-gradient(90deg,#4f82e0,#ec9dec); 
+     -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;
+}
+#cate{
+    font-family: 'Times New Roman', Times, serif;
+}
+#price{
+    font-family: 'Times New Roman', Times, serif;
+}
+#product{
+    transition: 0.5s;
+ }
+ #product:hover{
+    transform: translateY(-10px);
+ }
+.product-image{
+    height: 570px;
+    width: 430px;
+    margin-left: 18px;
+    margin-top: 100px;
+}
+.p3h5
+{
+    background: linear-gradient(#4f82e0,#ec9dec); 
+     -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;
+}
+.p4h5
+{
+    background: linear-gradient(90deg,#4f82e0,#ec9dec); 
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold;
+}
+/* Products end */
+
+/* purchase products */
+.submit-btn {
+    padding: 15px 30px;
+    border: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    font-family: Lato,sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #965396 ,#8aa6db);
+    color: #fff;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 25px;
+    margin-left: 10px;
+    font-weight: bolder;
+
+
+ }
+ .submit-btn:hover {
+     cursor: pointer;
+     color: #000;
+     background: linear-gradient(90deg, #a4beee, #965396 );
+     transition: 0.5s;
+ }
+ .heart-color{
+     color:  #965396;
+ }
+ /* purchase products end */
+ 
+ 
+ /* confirm order */
+.order-btn {
+    padding: 12px 50px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 0;
+    font-family: Lato,sans-serif;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    color: #fff;
+    background: linear-gradient(90deg, #a4beee, #965396 );
+    border: none;
+    cursor: pointer;
+    z-index: 3;
+ }
+ .order-btn:hover {
+    cursor: pointer;
+    color: #000;
+    background: linear-gradient(90deg, #945694 ,#8aa6db);
+    transition: 0.5s;
+ }
+ /* add to cart */
+ .cart-btn{
+    font-family: Lato,sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 18px 30px;
+    color: #fff;
+    background: linear-gradient(90deg, #a4beee, #a15ea1 );
+    border-radius: 25px ;
+    border: none;
+    text-transform: uppercase;
+    transform: translateY(35px);
+   
+ }
+ .cart-btn:hover {
+    cursor: pointer;
+    color: #000;
+    background: linear-gradient(90deg, #945694 ,#8aa6db);
+    transition: 0.5s;
+}
+ /* add to cart end */
+
+/* Back 2 Website start */
+#back-btn{
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background: linear-gradient(90deg, #97b3e5, #a15ea1 );
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; 
+    padding: 6px 15px;
+    outline: none;
+}
+#back-btn:hover{
+    cursor: pointer;
+    color: #000;
+    background: linear-gradient(90deg, #945694 ,#8aa6db);
+    transition: 0.3s;
+}
+/* Back 2 Website end  */
+
+
+
+

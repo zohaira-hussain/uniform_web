@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for purchasing</title>
+    <!-- css embeded -->
+    <link rel="stylesheet" href="../stylee.css">
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!----- google fonts ----->
+    <!-- font-1 italic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- font-2 signature -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <!-- font-3 main-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <!-- autocomplete -->
+    <link rel="stylesheet" href="jquery-ui-1.13.1.custom/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1.custom/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1.custom/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1.custom/jquery-ui.theme.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1.custom/jquery-ui.theme.min.css">
+
+    <style>
+        body{
+        background-color: #fff9f8;
+        font-family: 'Quicksand', sans-serif;
+        }
+    </style>
+</head>
+<body>
+   
+    
+    <!-- section -->
+    <div class="container"  style="margin-top: 50px;background-color: white; padding: 20px 10px 30px 20px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding-right: 30px;
+          border-radius: 30px; padding-left: 50px; border-top: 3px solid rgb(211, 211, 240);
+           border-right: 3px solid rgb(211, 211, 240); border-left:3px solid rgb(238, 185, 238);
+            border-bottom:3px solid rgb(238, 185, 238);">
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <h1 style="font-weight: bold; font-weight: bold; background: linear-gradient(90deg,#4f82e0,#ec9dec);
+                   -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                    Thank you for your order</h1>
+                <h5  class="p4h5" style="font-weight: bold; margin-top: 20px;">Order number is: 308512033</h5>
+                <p>you will recieve an email confirmation shortly at 
+                    <script>
+                        var y = localStorage.getItem("User Email");
+                        document.write(y)
+                    </script>
+                </p>
+              
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div id="question" style="float: right;">
+                    <h5 style="font-weight: bold; background: linear-gradient(90deg,#4f82e0,#ec9dec);
+                      -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Questions?</h5>
+                    <h5 style="font-size: 17px;">Call us: 021-886-7661</h5>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h5 style="font-weight: bold; background: linear-gradient(90deg,#4f82e0,#ec9dec);
+               -webkit-background-clip: text; -webkit-text-fill-color: transparent; cursor: pointer;" id="d-btn">&#62; Detailed Order</h5>
+           <p id="d-para" style="display: none;">- Your order will be deliver within 5 to 6 days <br> - Your delivery address (170 Paulison Ave, Passaic, NJ 07055, New York, United states)</p>
+        <hr>
+        <h5 style="font-weight: bold; background: linear-gradient(90deg,#4f82e0,#ec9dec);
+              -webkit-background-clip: text; -webkit-text-fill-color: transparent; cursor: pointer;" id="r-btn">&#62; Return Policy</h5>
+          <p id="r-para" style="display: none;"> - Order will be return within 10 days <br> - Consumer will not allowed to return any product after 10 days <br> - Amount will be return to the consumer through Bank</p>
+        <hr>
+        <p>We would love your feedback. <br> Go our website and tell us your opinion.</p>
+        <a href="../../index.html">
+            <button id="back-btn">Go to our website</button>
+        </a>
+    </div>
+    <!-- Section end -->
+
+   
+    <!-- media query / Javascript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#d-btn').click(function(){
+                $('#d-para').slideToggle()
+            })
+        });
+        $(document).ready(function(){
+            $('#r-btn').click(function(){
+                $('#r-para').slideToggle()
+            })
+        });
+    </script>
+
+    <!-- auto complete -->
+    <script src="jquery-ui-1.13.1.custom/jquery-ui.js"></script>
+    <script src="jquery-ui-1.13.1.custom/jquery-ui.min.js"></script>
+
+   
+    <!---------- LINKS ---------->
+    <!-- boostrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

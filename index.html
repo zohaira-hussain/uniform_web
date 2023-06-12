@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>A1-Uniform</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- mediaqury link -->
+  <link rel="stylesheet" href="mediaquery/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- starting point of navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/a1logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+              style=" background: linear-gradient(90deg,#c5d1e7, #f0d2f0 )" >
+              <li><a class="dropdown-item" href="products/shirts/1st.html">Shirts</a></li>
+              <li><a class="dropdown-item" href="products/pents/1st.html">Pants</a></li>
+              <li><a class="dropdown-item" href="products/frocks/1st.html">Frocks</a></li>
+              <li><a class="dropdown-item" href="products/skirts/1st.html">Skirts</a></li>
+              <li><a class="dropdown-item" href="products/ties/1st.html">Ties</a></li>
+              <li><a class="dropdown-item" href="products/belts/1st.html">Belts</a></li>
+              <li><a class="dropdown-item" href="products/socks/1st.html">Socks</a></li>
+              <li><a class="dropdown-item" href="products/shoes/1st.html">Shoes</a></li>
+              <li><a class="dropdown-item" href="products/logos/1st.html">Logos</a></li>
+              <li><a class="dropdown-item" href="products/PT t-shirts/1st.html">P.T T-shirts</a></li>
+              <li><a class="dropdown-item" href="products/PT track-pents/1st.html">P.T Track-pants</a></li>
+              <li><a class="dropdown-item" href="products/PT shorts/1st.html">P.T Shorts</a></li>
+              <li><a class="dropdown-item" href="products/PT shoes/1st.html">P.T Shoes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contactus.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="feedback.html">Feedback</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-icon">
+            <i class='fa fa-search' style='font-size:30px; color: white;' onclick="searchthis()"></i>
+            <input type="text" placeholder="Search" id="myinp">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Ending Point of Navbar -->
+
+  <!-- Starting Point of Herosection -->
+  <div class="container-fluid" id="herosection">
+    <div class="row g-3">
+      <div id="hero-sec-1" class="col-lg-5 col-md-5 col-sm-12 " data-aos="fade-right" data-aos-duration="2000">
+        <h1 >#1 Creative School A1Unifomrs Branded Theme</h1>
+        <p>We bring you everything you need to inspire fashion lovers from the hands of Shopify Experts. A choice that
+          defines your brand </p>
+        <a class="shopnow " href="#">Shop Now</a>
+      </div>
+      <!-- <div id="hero-sec-2" class="col-lg-7 col-md-7 col-sm-12" data-aos="fade-left" data-aos-duration="2000">
+        <img src="images/random/footer1.jpg" alt="" style="float: right;">
+      </div> -->
+    </div>
+  </div>
+  <!-- Ending Point of Herosection -->
+
+  <!-- Starting Point of Mian Section -->
+  <div class="container-fluid" id="main-content">
+    <div class="container" id="ten-demo">
+      <span data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">10+</span>
+      <h1 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500" >Demos to Make Your First Impression Memorable</h1>
+      <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit expedita alias dolorum! Impedit unde explicabo
+        voluptas totam nobis, dolore praesentium assumenda culpa optio commodi quaerat consectetur, quos mollitia illo
+        necessitatibus?</p>
+    </div>
+
+    <div class="continer" id="three-features">
+      <div class="row g-3" id="three-features-row" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <i class='fa fa-check'></i>
+          <h6>Togatherness and intedrity</h6>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <i class='fa fa-check'></i>
+          <h6>A sense of euqality</h6>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <i class='fa fa-check'></i>
+          <h6>Sequarity and indentity</h6>
+        </div>
+      </div>
+      <div class="row" id="note" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <span>If looking for designs, watch below!</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="gallary">
+      <div class="row g-3 random-gallary">
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="100">
+          <div class="images-card">
+            <img src="images/random/rndm1.jpg" alt="" class="image-randoms">
+            <div class="image-body">
+              <h6 class="image-title">A1 - Uniforms</h6>
+              <p class="image-text">
+                Lorem ipsum .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200">
+          <div class="images-card">
+            <img src="images/random/rndm2.jpg" alt="" class="image-randoms">
+            <div class="image-body">
+              <h6 class="image-title">A1 - Uniforms</h6>
+              <p class="image-text">
+                Lorem ipsum .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">
+          <div class="images-card">
+            <img src="images/random/rndm3.jpg" alt="" class="image-randoms">
+            <div class="image-body">
+              <h6 class="image-title">A1 - Uniforms</h6>
+              <p class="image-text">
+                Lorem ipsum .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-3 random-gallary">
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="100">
+          <div class="images-card">
+            <img src="images/random/rndm4.jpg" alt="" class="image-randoms">
+            <div class="image-body">
+              <h6 class="image-title">A1 - Uniforms</h6>
+              <p class="image-text">
+                Lorem ipsum .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200">
+          <div class="images-card">
+            <img src="images/random/rndm5.jpg" alt="" class="image-randoms">
+            <div class="image-body">
+              <h6 class="image-title">A1 - Uniforms</h6>
+              <p class="image-text">
+                Lorem ipsum .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">
+          <div class="images-card">
+            <img src="images/random/rndm6.jpg" alt="" class="image-randoms">
+            <div class="image-body">
+              <h6 class="image-title">A1 - Uniforms</h6>
+              <p class="image-text">
+                Lorem ipsum .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-3 random-gallary">
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="100">
+          <div class="images-card">
+            <img src="images/random/rndm7.jpg" alt="" class="image-randoms">
+            <div class="image-body">
+              <h6 class="image-title">A1 - Uniforms</h6>
+              <p class="image-text">
+                Lorem ipsum .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200">
+          <div class="images-card">
+            <img src="images/random/rndm8.jpg" alt="" class="image-randoms">
+            <div class="image-body">
+              <h6 class="image-title">A1 - Uniforms</h6>
+              <p class="image-text">
+                Lorem ipsum .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4"data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">
+          <div class="images-card">
+            <img src="images/random/rndm9.jpg" alt="" class="image-randoms">
+            <div class="image-body">
+              <h6 class="image-title">A1 - Uniforms</h6>
+              <p class="image-text">
+                Lorem ipsum .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="owl-carousel owl-theme" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200">
+      <div class="item">
+        <img src="images/random/rndm10.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/random/rndm11.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/random/rndm12.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/random/rndm13.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/random/rndm14.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/random/rndm15.jpg" alt="">
+      </div>
+      <div class="item">
+        <img src="images/random/rndm16.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="video-box-content" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200">
+    <div class="row g-4">
+      <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="3000" data-aos-delay="500">
+        <div class="video-container">
+          <video src="video/play.mp4" controls autoplay loop></video>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 " data-aos="fade-left" data-aos-duration="3000" data-aos-delay="500">
+        <div class="ideas">
+          <span class="bt"><a href="Sitemape/Sitemap.pptx" style="text-decoration: none; color: white; font-size: 16px; font-weight: bold;">SITE MAP</a></span>
+          <h1>Designing is a Piece of Cake </h1>
+          <p class="detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab animi, laboriosam distinctio
+            nostrum quae ut! Esse, hic culpa perferendis fugit eum laboriosam sapiente perspiciatis ad officiis error!
+            Veritatis, in explicabo!</p>
+          <h4><span class="icon"> - </span> Codeless & Beginner Friendly</h4>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur saepe a eligendi minima totam
+            cumque velit ipsa iste molestiae debitis.</p>
+          <h4><span class="icon"> + </span> Bulk Edition</h4>
+          <h4><span class="icon"> + </span> Color & Typography</h4>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Ending Point of Mian Section -->
+
+  <!-- Starting point of footer -->
+  <section id="footer" >
+    <div class="container-fluid">
+      <div class="container">
+      <div class="row ">
+        <div class="col-md-3 mt-5 mt-5" style="line-height: 3px;">
+          <h1 >A1-UNIFORM</h1>
+          <p style="text-align: left;">Nation Brand</p>
+        </div>
+        <div class="col-md-3 mt-5">
+          <ul>
+            <li>PRE-SLE FAQS</li>
+            <li>WEAKLY THEMES</li>
+            <li>SUBMIT A TICKET</li>
+            <li>MORE VIEW</li>
+            <li>SUBMIT</li>
+          </ul>
+        </div>
+        <div class="col-md-3 mt-5">
+          <ul>
+          <li>SERVICE</li>
+          <li>THEME TWEAR</li>
+          <li>WEAKLY THEMES</li>
+            <li>SUBMIT A TICKET</li>
+        </ul>
+        </div>
+        <div class="col-md-3 mt-5">
+         <ul>
+          <li>SHOWCASE</li>
+          <li>WIDGETKET</li>
+          <li>SUPPORT</li>
+          <li>WEAKLY THEMES</li>
+            <li>SUBMIT A TICKET</li>
+         </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12 " id="footericon">
+          <ul style="display: flex; align-items: center; justify-content: center;" >
+            <li style="margin-right: 20px;"><i class='fa fa-facebook' style='font-size:30px; color: white;'></i></li>
+            <li style="margin-right: 20px;"><i class='fa fa-twitter' style='font-size:30px; color: white;'></i></li>
+            <li style="margin-right: 20px;"><i class='fa fa-instagram' style='font-size:30px; color: white;'></i></li><br>
+            
+          </ul>
+          <p class="text-center" style="font-weight: lighter; font-size: 16px; ">copyright@aiuniform.net</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+<!-- ending of footer -->
+
+
+
+
+
+
+  <!-- jawascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="js/main.js"></script>
+  
+</body>
+
+</html>

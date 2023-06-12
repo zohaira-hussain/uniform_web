@@ -1,0 +1,515 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+    background-color: #112735 ;
+    width: 100%;
+}
+.navbar .container-fluid a img{
+    margin-left: 30px;
+    height: 80px;
+    width: auto;
+}
+.navbar .collapse .navbar-nav .nav-item{
+    
+    margin-right: 5px;
+    
+}
+.navbar .collapse .navbar-nav .nav-item a{
+    font-size: 16px;
+    padding: 4px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.navbar .collapse .navbar-nav .nav-item a:hover{
+    background-image: linear-gradient(to right, #5f7fac , #e2bcee);    
+}
+.navbar .collapse .navbar-nav .nav-icon{}
+.navbar .collapse .navbar-nav .nav-icon i{
+    
+    margin-top: px;
+    margin-right: 10px;
+}
+.navbar .collapse .navbar-nav .nav-icon input{
+    text-align: center;
+    border-radius: 30px;
+    height: 35px;
+    width: 150px;
+    background: linear-gradient(90deg,#c5d1e7, #f0d2f0 );
+    margin-right: 30px;
+}
+.navbar .collapse .navbar-nav .nav-icon input::placeholder{
+    padding: 0px 10px;
+    
+}
+/*------------------- Ending of Nav Bar css---------------------- */
+
+/* ------------------ Starting point of herosection css---------- */
+#herosection{
+    /* top: 55px; */
+    /* z-index: -1; */
+    /* position :relative;  */
+    height: 700px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    background-color: #112735 ;
+    
+}
+#herosection #hero-sec-1{
+    justify-content: left;
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+#herosection #hero-sec-1 h1{
+    font-weight: bolder;
+    background: linear-gradient(880deg,#3d80fc,#d6acd6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+
+}
+#herosection #hero-sec-1 p{
+    color: white;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#herosection #hero-sec-1 a{
+    border-radius: 30px;
+    padding: 15px 28px;
+    background: linear-gradient(90deg, #965396 ,#a4beee);
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 1s; /* transition not working*/
+
+}
+#herosection #hero-sec-1 a:hover{
+    background: linear-gradient(90deg, #a4beee, #965396 );
+}
+#herosection #hero-sec-2{   }
+#herosection #hero-sec-2 img{}
+
+/* ----------------Ending point of Herosection css------------------- */
+
+/* ---------------------Starting point of Main Section--------------------------------------- */
+
+#main-content{}
+#main-content #ten-demo{
+    text-align: center;
+}
+#main-content #ten-demo span{
+    font-size: 150px;
+    font-weight: bolder;
+    background: linear-gradient(#e994e9, #93acda,#d5deee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#main-content #ten-demo h1{
+    justify-content: center;
+    margin: 0px 250px;
+    text-transform:uppercase;
+    font-weight: bolder;
+    /* margin-top: -50px; */
+    line-height: 50px;
+}
+#main-content #ten-demo p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px 150px;
+    color: #525050;
+    font-size: 16px;
+}
+#main-content #three-features{}
+#main-content #three-features #three-features-row{
+    margin: 60px 0px;
+    text-align: center;
+    padding: 0px 150px;
+}
+#main-content #three-features #three-features-row i{
+    color: limegreen;
+}
+#main-content #three-features #three-features-row h6{
+    font-weight: bolder;
+    display: inline;
+    font-size: 18px;
+}
+#main-content #note{
+    text-align: center;
+    margin: 100px 0px;
+}
+#main-content #note span{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #cae6be;
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#gallary .gallary{
+    margin-bottom: 100px;
+}
+#gallary .random-gallary{
+    margin:0px 35px;   
+}
+#gallary .random-gallary .images-card{
+    border-bottom: 3px solid rgb(241, 208, 241) ;
+    border-right: 3px solid rgb(241, 208, 241);
+    border-top: 3px solid rgb(213, 213, 247);
+    border-left: 3px solid rgb(213, 213, 247);
+    /* border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+    transition: 0.3s;
+}
+#gallary .random-gallary .images-card:hover{
+    box-shadow: 5px 5px 10px  rgb(216, 209, 209);
+    margin-top: -10px;
+}
+#gallary .random-gallary .images-card .image-randoms{  
+    height: 250px;
+    width: 100%;
+}
+#gallary .random-gallary .images-card .image-body{
+    margin-top: 20px;
+}
+#gallary .random-gallary .images-card .image-body .image-title{
+    font-weight: bolder;
+    margin-left: 8px;
+}
+#gallary .random-gallary .images-card .image-body .image-text{
+    margin-top: -7px;
+    font-size: 13px;
+    padding-bottom: 10px;
+    margin-left: 8px;
+}
+
+#main-content .owl-carousel{
+    margin: 50px 0px;
+}
+#main-content .owl-carousel .item{
+    border-bottom: 7px solid rgb(241, 208, 241) ;
+    border-right: 7px solid rgb(241, 208, 241);
+    border-top: 7px solid rgb(213, 213, 247);
+    border-left: 7px solid rgb(213, 213, 247);
+    /* border-radius: 50px; */
+}
+#main-content .owl-carousel .item img{
+    height: 200px;
+    width: 100%;
+}
+#video-box-content{
+    background: linear-gradient(20deg, #ebeef1,  rgb(243, 219, 233) );
+    padding: 50px;
+    border-radius: 50px;
+    margin-bottom: 60px;
+}
+#video-box-content .video-container{
+    margin-top: 60px;
+}
+#video-box-content .video-container video{
+    width: 100%;
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px; */
+}
+#video-box-contentr .ideas{}
+#video-box-content .ideas .bt{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 50px;   
+}
+#video-box-content .ideas h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+#video-box-content .ideas .detail{
+    color: #8d8a8a;   
+}
+#video-box-content .ideas h4{
+    margin-top: 30px;
+    font-weight: bold;
+}
+#video-box-content .ideas .icon{
+    
+    margin-right: 20px;
+}
+#video-box-content .ideas .text{
+    line-height: 25px;
+    padding-left: 40px;
+    color: #8d8a8a;
+}
+
+/* ---------------------Ending point of Main Section css--------------------------------------- */
+
+/* --------------------------Starting point of footer section css------------------------------- */
+
+#footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #1e2533;
+    color: white;
+    
+
+}
+#footer h1{
+    background: linear-gradient(880deg,#5f94f7,#e282ca); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 30PX;
+}
+#footer p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#footer ul{
+    list-style: none;
+}
+#footer ul li{
+    /* text-align: center; */
+    line-height: 30px;
+}
+#footer #footericon ul li:hover{
+    background: linear-gradient(880deg,#5f94f7,#8f427c); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+/* --------------------------Ending point of footer section css------------------------------- */
+
+
+/* ------------------------ css start of aboutus page  ----------------------------------------- */
+
+#banner-section{
+    background-position: center;
+    background-image: url(../images/random/banner2.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#aboutus-text{
+    text-align: center;
+    padding: 0px 250px;
+    padding-top: 60px ;
+    padding-bottom: 120px;
+}
+#aboutus-text h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+#aboutus-text p{
+    margin-top: 20px;
+    color: #757474;
+    line-height: 25px;
+}
+#qualities{
+    margin-bottom: 80px;
+    background: linear-gradient(#faddfa, #d3e0f7,#d5deee);
+}
+#qualities #qualities-div{
+    padding: 30px 0px;
+}
+#qualities #qualities-div i{
+    font-size: 70px;
+}
+#qualities #qualities-div h2{
+    font-size: 35px;
+    font-weight: lighter;
+}
+#qualities #qualities-div p{
+    text-align: center;
+    padding: 0px 36px;
+}
+#logo-bage{
+    margin-bottom: 100px;
+}
+#logo-bage img{
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+#logo-bage img:hover{
+    transform: rotate(180deg);
+    background: linear-gradient(#e9b5e9, #bbcff1,#b4c1d8, #e9b5e9, #bbcff1, #b4c1d8);
+}
+
+/* ------------------------ css end of aboutus page-------------------------------------- */
+
+
+/* ------------------------ css of contactus page start -------------------------------------- */
+#contact-banner{
+    background: url(../images/random/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+#contact-banner h1{
+    background: linear-gradient(90deg,#1e2533,#e49ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: fantasy;
+    padding-top: 30%;
+    padding-left:70px;
+
+}
+#location-div{
+    margin: 100px 0px;
+}
+#location-div #location-address{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#location-div #location-address h4{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+#location-div #location-address p{
+    color: #A6ACAF;
+    
+}
+#contact-box{
+    margin-bottom: 200px;
+}
+#contact-box #contact-box-div{
+    
+}
+#contact-box #contact-box-div #contact-form{
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(60deg,#f1ddf1, #d8dfec);
+    border-radius: 50px;
+    
+}
+#contact-box #contact-box-div #contact-form input{
+ border-radius: 50px;
+ border: none;
+    border-bottom: outset;
+    margin-bottom: 10px;
+    width: 350px;
+    padding: 5px 10px;
+}
+#contact-box #contact-box-div #contact-form textarea{
+    border-color: #ecbfec;
+    border-radius: 10px;
+    border-bottom: outset;
+}
+#contact-box #contact-box-div #contact-form .formerror{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#contact-box #contact-box-div #contact-form button{
+    
+    font-size: 16px;
+    padding: 4px 20px;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient( #e2bcee, #5f7fac);
+    
+    transition: 0.5s;
+}
+
+#contact-box #contact-box-div #contact-form button:hover{
+    background-image: linear-gradient(to right, #5f7fac , #e2bcee);
+}
+
+#map-canvas {
+    width: 100%;
+    max-width: 900px;
+    height: 0;
+    margin: auto;
+    padding-bottom: 40%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #000;
+}
+#map-canvas > div {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.city-list {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto 0;
+    columns: 180px;
+    column-gap: 20px;
+    column-rule: 1px dotted #ddd;
+}
+.city-list a {
+    display: inline-block;
+    width: 100%;
+    margin: 1%;
+    padding: 5px;
+    background: rgba(0, 0, 0, .05);
+}
+.city-list a:hover {
+    background: #ccc;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    font: 12px Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/* ------------------------ css of contactus page end -------------------------------------- */
+
+/* ------------------------ css of feedback page start -------------------------------------- */
+#feedback-box{}
+#feedback-box .container{
+    padding: 80px 0px;
+    text-align: center;
+}
+#feedback-box .container h1{
+    font-weight: bolder;
+    font-size: 60px;
+    color: rgb(21, 27, 46);
+}
+#feedback-box .container h1 span{
+    background: linear-gradient(90deg,#7d9cda,#e49ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#feedback-box .container p{
+    color: rgb(119, 120, 122);
+    padding: 0px 60px;
+    line-height: 30px;
+}
+#feedback-box .container form{}
+#feedback-box .container form input{
+    width: 350px;
+    padding: 5px 8px;
+    border: none;
+    border-bottom: outset;
+    margin-bottom: 20px;
+}
+#feedback-box .container form textarea{
+    /* width: auto;
+    height: 20pxpx; */
+    border-color: rgb(170, 119, 190);
+}
+#feedback-box .container form button{
+    font-size: 16px;
+    padding: 4px 20px;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient( #e2bcee, #5f7fac);
+    transition: 0.5s;
+}
+#feedback-box .container form button:hover{
+    background-image: linear-gradient(to right, #5f7fac , #e2bcee);
+}
+/* ------------------------ css of feedback page end -------------------------------------- */
+
+
+
+
+
